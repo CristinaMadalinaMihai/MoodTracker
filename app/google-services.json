@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "71877701389",
+    "firebase_url": "https://moodtracker-29ee6.firebaseio.com",
+    "project_id": "moodtracker-29ee6",
+    "storage_bucket": "moodtracker-29ee6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71877701389:android:857523f17ca753191d4a44",
+        "android_client_info": {
+          "package_name": "com.example.moodtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71877701389-2va93egaf0h309orep9hr044ljirm2td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moodtracker",
+            "certificate_hash": "6c098b0687fb0ccba10829470943dbf85f6a95b6"
+          }
+        },
+        {
+          "client_id": "71877701389-fujovg5cf21crt43pjnug9hvh7ga13a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6He3DKV3NLvE_dWkGewhouqOta6dcjv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71877701389-fujovg5cf21crt43pjnug9hvh7ga13a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

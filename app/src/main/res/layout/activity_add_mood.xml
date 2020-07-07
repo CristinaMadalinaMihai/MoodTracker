@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDDDD0"
+    tools:context=".AddMood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="How do you feel today?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/surprised"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@mipmap/a1"/>
+
+            <ImageButton
+                android:id="@+id/confused"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@mipmap/a5"
+                android:layout_toRightOf="@id/surprised"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/optimistic"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/a7"
+                android:layout_margin="20dp" />
+
+            <ImageButton
+                android:id="@+id/bored"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/a14"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@id/optimistic"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/happy"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/a12"
+                android:layout_margin="20dp" />
+
+            <ImageButton
+                android:id="@+id/angry"
+                android:layout_width="162dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/a10"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@id/happy"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:text="I feel... "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submit_mood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="casual"
+            android:text="Submit my mood"
+            android:textColor="@color/colorOrange"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
